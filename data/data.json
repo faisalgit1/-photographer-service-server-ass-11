@@ -1,49 +1,43 @@
 [
     {
-        "id": "01",
         "name": "Wedding Photographer",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC12dwyVbzt6BW-9KSAj3CRb6eTZ6Qp6RdGon-3yqfLSJ0fnRFxIvfCT9eX3nOMqoyORQ&usqp=CAU",
-        "rating": "5",
+        "ratings": "5",
         "price": "300",
         "details": "We are the best wedding photographer in Bangladesh who offer value for your money as all our professional photographers offer their impeccable skills on your big day. Being the best BD wedding photography agency, we seek to bring out the pomp and color on your special day and make you feel really special!                                                                                    A good wedding photographer’s job is to capture the sweet love story of a couple. And, Nijol Creative brings every moment of your wedding story to life. We are a trusted company when you are talking about professional photography in Bangladesh. What makes us stand out is our ability to capture the best moments, the tiniest of details, and the life of any wedding to make it a story worth telling. We have a team of highly enthusiastic and best wedding photographers who are versatile and capable of catering to different wedding photography styles. If you’re looking to hire wedding photographer in Bangladesh, then Nijol creative could be the best solution for your wedding."
     },
     {
-        "id": "02",
         "name": "Sports Photographer",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIisKz45OsGHea728ZPn_3j39v_oYL53FKyA&usqp=CAU",
-        "rating": "5",
+        "ratings": "5",
         "price": "400",
         "details": "Who doesn’t love sports? Very few, Right? Most people across the world are passionate about sports. All types of sports may not be fancied by every individual. Some may like football in preference to other sports, some may like cricket over other sports and this choice varies from individual to individual. Whether playing sports or watching sports from the gallery or through satellite channels, people dig sports enormously. When it comes to any international sport, photography and videography are closely related to it. In fact, global sports are interlinked with photography and videography. Due to the blessings of sports photography and videography, we get updates and news of various sports such as football, cricket, tennis, rugby, etc. online together with visuals in this modern era"
     },
     {
-        "id": "03",
         "name": "Journalism Photographer",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJlycxXHKi_i_piDG2feY1FUu1sAgIVB4qXA&usqp=CAU",
-        "rating": "4",
+        "ratings": "4",
         "price": "200",
         "details": "Photojournalism is journalism that uses images to tell a news story. It usually only refers to still images, but can also refer to video used in broadcast journalism. Photojournalism is distinguished from other close branches of photography (such as documentary photography, social documentary photography, war photography, street photography and celebrity photography) by having a rigid ethical framework which demands an honest but impartial approach that tells a story in strictly journalistic terms. Photojournalists contribute to the news media, and help communities connect with one other. They must be well-informed and knowledgeable, and are able to deliver news in a creative manner that is both informative and entertaining."
     },
     {
-        "id": "04",
         "name": "Wild Photographer",
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4PHd2LvyOu_k7PRUraT-V7DWkvftZYGf8Pg&usqp=CAU",
-        "rating": "4.5",
+        "ratings": "4.5",
         "price": "250",
         "details": "Wildlife photography is a genre of photography concerned with documenting various forms of wildlife in their natural habitat.As well as requiring photography skills, wildlife photographers may need field craft skills. For example, some animals and birds are difficult to approach and thus a knowledge of the animal's and birds behavior is needed in order to be able to predict its actions. Photographing some species may require stalking skills or the use of a hide/concealment.                                                                            While wildlife photographs can be taken using basic equipment, successful photography of some types of wildlife requires specialist equipment, such as macro lenses for insects, long focal length lenses for birds and underwater cameras for marine life. However, a great wildlife photograph can involve a understanding of animal behavior.                             Wildlife photography is a genre of photography that records the life of animals in their natural settings, like in a forest or underwater. So, wildlife photography often constitutes the images of animals in movement or action such as eating, fighting, or in flight."
     },
     {
-        "id": "05",
         "name": "Stylish Fashion Photography Photographer",
         "img": "https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTc5ODg3MzI3NTEyODk2NjM0/photography-name-ideas.webp",
-        "rating": "3.5",
+        "ratings": "3.5",
         "price": "180",
         "details": "Fashion photography is the type where you will have to capture photographs of models for high fashion brands like Gucci, Vogue, Chanel, etc. These fashion photographs mainly show the products these brands are offering via the model.                    This type of photo mainly gets publishes is high fashion magazines and huge banners.This type of fashion photography is quite unique and famous. An editorial fashion photo tells a story using the image. Here the photographer will have to take photos of the model while he or she is wearing the fashion dress and is on the middle of doing something. It actually shows the lifestyle and what they are doing. These types of photos get published in magazines as a story. They are also in too much demand right now and an editorial fashion photographer earns the most."
     },
     {
-        "id": "06",
         "name": "Food Photographer",
         "img": "https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTc5ODg4MDEwNjgxNTkxMTI4/photography-name-ideas.webp",
-        "rating": "3.5",
+        "ratings": "3.5",
         "price": "180",
         "details": "Food photography is a still life photography genre used to create attractive still life photographs of food. It is a specialization of commercial photography, the products of which are used in advertisements, magazines, packaging, menus or cookbooks. Professional food photography is a collaborative effort, usually involving an art director, a photographer, a food stylist, assistants.                                This type of photo mainly gets publishes is high fashion magazines and huge banners.This type of fashion photography is quite unique and famous. An editorial fashion photo tells a story using the image. Here the photographer will have to take photos of the model while he or she is wearing the fashion dress and is on the middle of doing something. It actually shows the lifestyle and what they are doing. These types of photos get published in magazines as a story. They are also in too much demand right now and an editorial fashion photographer earns the most."
     }
