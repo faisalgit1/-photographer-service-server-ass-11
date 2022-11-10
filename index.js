@@ -31,6 +31,12 @@ async function run() {
             res.send(result)
         })
 
+        app.get('/chose-photos/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: ObjectId(id) };
+            const service = await photoCollection.findOne(query);
+            res.send(service);
+        });
 
     }
     finally {
@@ -38,6 +44,7 @@ async function run() {
     }
 }
 run().catch(err => console.error(err));
+
 
 app.get('/', (req, res) => {
     res.send('Assignment server is running')
