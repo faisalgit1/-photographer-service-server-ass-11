@@ -2,8 +2,7 @@ const express = require('express');
 const cors = require('cors')
 const app = express();
 const port = process.env.PORT || 5000;
-const data = require('./data/data.json');
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 require('dotenv').config();
 
 // middle wares
@@ -25,6 +24,13 @@ async function run() {
             const services = await cursor.toArray();
             res.send(services);
         });
+        app.get('/home', async (req, res) => {
+            const query = {}
+            const cursor = photoCollection.find(query).sort({ _id: -1 });
+            const result = await cursor.limit(3).toArray()
+            res.send(result)
+        })
+
 
     }
     finally {
@@ -32,11 +38,6 @@ async function run() {
     }
 }
 run().catch(err => console.error(err));
-
-
-app.get('/data', (req, res) => {
-    res.send(data)
-});
 
 app.get('/', (req, res) => {
     res.send('Assignment server is running')
