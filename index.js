@@ -38,6 +38,12 @@ async function run() {
             res.send(service);
         });
 
+        app.post('/chose-photos', async (req, res) => {
+            const addService = req.body;
+            const result = await photoCollection.insertOne(addService);
+            res.send(result);
+        });
+
     }
     finally {
 
