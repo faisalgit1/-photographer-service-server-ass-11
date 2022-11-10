@@ -45,13 +45,18 @@ async function run() {
             const result = await photoCollection.insertOne(addService);
             res.send(result);
         });
-
         app.post('/review', async (req, res) => {
             const addreview = req.body;
             const result = await reviewCollection.insertOne(addreview);
             res.send(result);
         });
 
+        app.get('/allreview', async (req, res) => {
+            const query = {}
+            const cursor = reviewCollection.find(query);
+            const services = await cursor.toArray();
+            res.send(services);
+        });
 
     }
     finally {
