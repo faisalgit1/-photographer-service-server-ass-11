@@ -15,6 +15,8 @@ const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@clu
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 
+
+
 async function run() {
     try {
         const photoCollection = client.db('photoDb').collection('photos');
@@ -56,6 +58,13 @@ async function run() {
             const addreview = req.body;
             const result = await reviewCollection.insertOne(addreview);
             res.send(result);
+        });
+
+        app.get('/review', async (req, res) => {
+            const query = {}
+            const cursor = reviewCollection.find(query);
+            const services = await cursor.toArray();
+            res.send(services);
         });
 
         app.get('/allreview', async (req, res) => {
